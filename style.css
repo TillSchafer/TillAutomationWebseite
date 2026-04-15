@@ -171,6 +171,23 @@ section { padding: 100px 0; }
 }
 .nav-cta:hover { background: var(--red-dark) !important; }
 .nav-cta::after { display: none !important; }
+.lang-switch {
+  background: transparent;
+  border: 1px solid var(--border-h);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all var(--trans);
+}
+.lang-switch:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
 .nav-burger {
   display: none;
   flex-direction: column;

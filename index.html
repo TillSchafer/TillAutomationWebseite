@@ -43,11 +43,12 @@
     <div class="nav-inner">
       <a href="#hero" class="nav-logo">Till Schäfer<span class="dot">.</span></a>
       <ul class="nav-links">
-        <li><a href="#about">Über mich</a></li>
-        <li><a href="#services">Leistungen</a></li>
-        <li><a href="#process">Prozess</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact" class="nav-cta">Kontakt</a></li>
+        <li><a href="#about" data-de="Über mich" data-en="About">Über mich</a></li>
+        <li><a href="#services" data-de="Leistungen" data-en="Services">Leistungen</a></li>
+        <li><a href="#process" data-de="Prozess" data-en="Process">Prozess</a></li>
+        <li><a href="#portfolio" data-de="Portfolio" data-en="Portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-cta" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+        <li><button class="lang-switch" id="langSwitch">EN</button></li>
       </ul>
       <button class="nav-burger" id="burger" aria-label="Menü öffnen">
         <span></span><span></span><span></span>
@@ -70,33 +71,29 @@
       <canvas id="tileCanvas"></canvas>
     </div>
     <div class="hero-inner container">
-      <div class="hero-badge reveal">
-        <span class="badge-dot"></span>
-        Verfügbar für neue Projekte
+      <div class="hero-badge reveal" data-i18n="hero-badge">
+        <span class="badge-dot"></span><span class="badge-text"> Verfügbar für neue Projekte</span>
       </div>
       <h1 class="hero-title reveal">
         Automatisierung<br /><span class="accent">ohne Chaos.</span>
       </h1>
-      <p class="hero-sub reveal">
-        Ich helfe Unternehmen, Zeit zu sparen und Prozesse zu skalieren,
-        durch smarte KI-Lösungen und maßgeschneiderte Automatisierungen.
-      </p>
+      <p class="hero-sub reveal" data-i18n="hero-sub">Ich helfe Unternehmen, Zeit zu sparen und Prozesse zu skalieren, durch smarte KI-Lösungen und maßgeschneiderte Automatisierungen.</p>
       <div class="hero-actions reveal">
-        <a href="#contact" class="btn btn-primary">Jetzt starten</a>
-        <a href="#portfolio" class="btn btn-ghost">Projekte ansehen</a>
+        <a href="#contact" class="btn btn-primary" data-i18n="btn-start">Jetzt starten</a>
+        <a href="#portfolio" class="btn btn-ghost" data-i18n="btn-projects">Projekte ansehen</a>
       </div>
       <div class="hero-stats reveal">
         <div class="stat">
           <span class="stat-num">5+</span>
-          <span class="stat-label">Jahre Erfahrung</span>
+          <span class="stat-label" data-i18n="stat-1-label">Jahre Erfahrung</span>
         </div>
         <div class="stat">
           <span class="stat-num">20+</span>
-          <span class="stat-label">Projekte umgesetzt</span>
+          <span class="stat-label" data-i18n="stat-2-label">Projekte umgesetzt</span>
         </div>
         <div class="stat">
           <span class="stat-num">100%</span>
-          <span class="stat-label">Remote und flexibel</span>
+          <span class="stat-label" data-i18n="stat-3-label">Remote und flexibel</span>
         </div>
       </div>
     </div>
@@ -121,32 +118,26 @@
         </div>
       </div>
       <div class="about-text">
-        <p class="section-label reveal">Über mich</p>
-        <h2 class="section-title reveal">
-          Prozesse, die wirklich<br /><span class="red-text">funktionieren.</span>
-        </h2>
-        <p class="about-body reveal">
-          Ich bin Till, 25 Jahre alt, und helfe Unternehmen dabei, wiederkehrende Aufgaben zu automatisieren und digitale Prozesse aufzubauen. Damit du dich auf das konzentrieren kannst, was wirklich zählt.
-        </p>
-        <p class="about-body reveal">
-          Mit Erfahrung aus der Lufthansa Group und zahlreichen Freelance-Projekten weiß ich, wie komplexe Unternehmensstrukturen ticken. Und wie man sie smarter macht.
-        </p>
+        <p class="section-label reveal" data-i18n="about-label">Über mich</p>
+        <h2 class="section-title reveal" data-i18n="about-title">Prozesse, die wirklich<br /><span class="red-text">funktionieren.</span></h2>
+        <p class="about-body reveal" data-i18n="about-body-1">Ich bin Till, 25 Jahre alt, und helfe Unternehmen dabei, wiederkehrende Aufgaben zu automatisieren und digitale Prozesse aufzubauen. Damit du dich auf das konzentrieren kannst, was wirklich zählt.</p>
+        <p class="about-body reveal" data-i18n="about-body-2">Mit Erfahrung aus der Lufthansa Group und zahlreichen Freelance-Projekten weiß ich, wie komplexe Unternehmensstrukturen ticken. Und wie man sie smarter macht.</p>
         <div class="about-facts reveal">
           <div class="about-fact-item">
-            <p class="about-fact-label">Standort</p>
-            <p class="about-fact-value">Hamburg, DE</p>
+            <p class="about-fact-label" data-i18n="fact-loc-label">Standort</p>
+            <p class="about-fact-value" data-i18n="fact-loc-val">Hamburg, DE</p>
           </div>
           <div class="about-fact-item">
-            <p class="about-fact-label">Erfahrung</p>
-            <p class="about-fact-value">5+ Jahre</p>
+            <p class="about-fact-label" data-i18n="fact-exp-label">Erfahrung</p>
+            <p class="about-fact-value" data-i18n="fact-exp-val">5+ Jahre</p>
           </div>
           <div class="about-fact-item">
-            <p class="about-fact-label">Hintergrund</p>
-            <p class="about-fact-value">Lufthansa Group</p>
+            <p class="about-fact-label" data-i18n="fact-bg-label">Hintergrund</p>
+            <p class="about-fact-value" data-i18n="fact-bg-val">Lufthansa Group</p>
           </div>
           <div class="about-fact-item">
-            <p class="about-fact-label">Verfügbarkeit</p>
-            <p class="about-fact-value">Remote, flexibel</p>
+            <p class="about-fact-label" data-i18n="fact-avail-label">Verfügbarkeit</p>
+            <p class="about-fact-value" data-i18n="fact-avail-val">Remote, flexibel</p>
           </div>
         </div>
         <div class="about-links reveal">
@@ -167,41 +158,41 @@
   <section id="services">
     <div class="container">
       <div class="section-header">
-        <p class="section-label reveal">Leistungen</p>
-        <h2 class="section-title reveal">Was ich für dich<br /><span class="red-text">umsetze.</span></h2>
-        <p class="section-sub reveal">Von der ersten Idee bis zum laufenden System. Alles aus einer Hand.</p>
+        <p class="section-label reveal" data-i18n="services-label">Leistungen</p>
+        <h2 class="section-title reveal" data-i18n="services-title">Was ich für dich<br /><span class="red-text">umsetze.</span></h2>
+        <p class="section-sub reveal" data-i18n="services-sub">Von der ersten Idee bis zum laufenden System. Alles aus einer Hand.</p>
       </div>
       <div class="services-list">
 
         <div class="service-row reveal">
           <div class="service-num">01</div>
           <div class="service-main">
-            <h3>Automatisierung und Workflows</h3>
-            <p>Wiederkehrende Prozesse vollständig automatisieren, mit Make.com, n8n oder Power Automate. Du sparst Zeit, ich baue das System das wirklich läuft.</p>
+            <h3 data-i18n="s1-title">Automatisierung und Workflows</h3>
+            <p data-i18n="s1-text">Wiederkehrende Prozesse vollständig automatisieren, mit Make.com, n8n oder Power Automate. Du sparst Zeit, ich baue das System das wirklich läuft.</p>
           </div>
         </div>
 
         <div class="service-row reveal">
           <div class="service-num">02</div>
           <div class="service-main">
-            <h3>KI in deine Workflows integrieren</h3>
-            <p>Künstliche Intelligenz sinnvoll einsetzen, direkt in deinen bestehenden Prozessen. Smarte Assistenten, automatisierte Auswertungen und intelligente Entscheidungshilfen.</p>
+            <h3 data-i18n="s2-title">KI in deine Workflows integrieren</h3>
+            <p data-i18n="s2-text">Künstliche Intelligenz sinnvoll einsetzen, direkt in deinen bestehenden Prozessen. Smarte Assistenten, automatisierte Auswertungen und intelligente Entscheidungshilfen.</p>
           </div>
         </div>
 
         <div class="service-row reveal">
           <div class="service-num">03</div>
           <div class="service-main">
-            <h3>Webentwicklung</h3>
-            <p>Moderne, performante Websites und Web-Apps. Von der Landing Page bis zum internen Dashboard. Sauber gebaut und schnell ausgeliefert.</p>
+            <h3 data-i18n="s3-title">Webentwicklung</h3>
+            <p data-i18n="s3-text">Moderne, performante Websites und Web-Apps. Von der Landing Page bis zum internen Dashboard. Sauber gebaut und schnell ausgeliefert.</p>
           </div>
         </div>
 
         <div class="service-row reveal">
           <div class="service-num">04</div>
           <div class="service-main">
-            <h3>IT-Beratung und Strategie</h3>
-            <p>Ich analysiere deine Prozesse und zeige konkrete Hebel. Kein Buzzword-Bingo, sondern klare Maßnahmen mit echtem Impact für dein Unternehmen.</p>
+            <h3 data-i18n="s4-title">IT-Beratung und Strategie</h3>
+            <p data-i18n="s4-text">Ich analysiere deine Prozesse und zeige konkrete Hebel. Kein Buzzword-Bingo, sondern klare Maßnahmen mit echtem Impact für dein Unternehmen.</p>
           </div>
         </div>
 
@@ -213,36 +204,36 @@
   <section id="process">
     <div class="container">
       <div class="section-header">
-        <p class="section-label reveal">Mein Prozess</p>
-        <h2 class="section-title reveal">So arbeiten wir<br /><span class="red-text">zusammen.</span></h2>
+        <p class="section-label reveal" data-i18n="process-label">Mein Prozess</p>
+        <h2 class="section-title reveal" data-i18n="process-title">So arbeiten wir<br /><span class="red-text">zusammen.</span></h2>
       </div>
       <div class="process-steps">
         <div class="process-step reveal">
           <div class="step-num">01</div>
           <div class="step-content">
-            <h3>System-Audit</h3>
-            <p>Wir analysieren gemeinsam deine aktuellen Prozesse. Was läuft gut, was kostet unnötig Zeit und Geld?</p>
+            <h3 data-i18n="p1-title">System-Audit</h3>
+            <p data-i18n="p1-text">Wir analysieren gemeinsam deine aktuellen Prozesse. Was läuft gut, was kostet unnötig Zeit und Geld?</p>
           </div>
         </div>
         <div class="process-step reveal">
           <div class="step-num">02</div>
           <div class="step-content">
-            <h3>Konzept und Planung</h3>
-            <p>Ich entwerfe eine maßgeschneiderte Lösung mit klarem Scope, realistischer Timeline und fixem Budget.</p>
+            <h3 data-i18n="p2-title">Konzept und Planung</h3>
+            <p data-i18n="p2-text">Ich entwerfe eine maßgeschneiderte Lösung mit klarem Scope, realistischer Timeline und fixem Budget.</p>
           </div>
         </div>
         <div class="process-step reveal">
           <div class="step-num">03</div>
           <div class="step-content">
-            <h3>Aufbau und Umsetzung</h3>
-            <p>Ich setze die Lösung um. Sauber, dokumentiert und mit dir abgestimmt. Du siehst jeden Schritt.</p>
+            <h3 data-i18n="p3-title">Aufbau und Umsetzung</h3>
+            <p data-i18n="p3-text">Ich setze die Lösung um. Sauber, dokumentiert und mit dir abgestimmt. Du siehst jeden Schritt.</p>
           </div>
         </div>
         <div class="process-step reveal">
           <div class="step-num">04</div>
           <div class="step-content">
-            <h3>Übergabe und Monitoring</h3>
-            <p>Du übernimmst ein laufendes System. Ich bleibe Ansprechpartner und optimiere bei Bedarf weiter.</p>
+            <h3 data-i18n="p4-title">Übergabe und Monitoring</h3>
+            <p data-i18n="p4-text">Du übernimmst ein laufendes System. Ich bleibe Ansprechpartner und optimiere bei Bedarf weiter.</p>
           </div>
         </div>
       </div>
@@ -253,8 +244,8 @@
   <section id="portfolio">
     <div class="container">
       <div class="section-header">
-        <p class="section-label reveal">Portfolio</p>
-        <h2 class="section-title reveal">Projekte, die<br /><span class="red-text">Ergebnisse liefern.</span></h2>
+        <p class="section-label reveal" data-i18n="portfolio-label">Portfolio</p>
+        <h2 class="section-title reveal" data-i18n="portfolio-title">Projekte, die<br /><span class="red-text">Ergebnisse liefern.</span></h2>
       </div>
       <div class="portfolio-grid">
 
@@ -264,8 +255,8 @@
           </div>
           <div class="portfolio-info">
             <div class="portfolio-tags"><span>Automatisierung</span><span>Logistik</span></div>
-            <h3>Automatisierte Routenplanung</h3>
-            <p>Vollautomatische Optimierung von Lieferrouten. Spart Stunden manueller Planung pro Woche und reduziert Fehlerquoten spürbar.</p>
+            <h3 data-i18n="proj1-title">Automatisierte Routenplanung</h3>
+            <p data-i18n="proj1-text">Vollautomatische Optimierung von Lieferrouten. Spart Stunden manueller Planung pro Woche und reduziert Fehlerquoten spürbar.</p>
           </div>
         </div>
 
@@ -275,8 +266,8 @@
           </div>
           <div class="portfolio-info">
             <div class="portfolio-tags"><span>Prozess</span><span>Retail</span></div>
-            <h3>Expansionsprozess Einzelhandel</h3>
-            <p>Strukturierter digitaler Workflow für den Expansionsprozess eines Einzelhändlers. Von der Standortsuche bis zur Eröffnung in einem System.</p>
+            <h3 data-i18n="proj2-title">Expansionsprozess Einzelhandel</h3>
+            <p data-i18n="proj2-text">Strukturierter digitaler Workflow für den Expansionsprozess eines Einzelhändlers. Von der Standortsuche bis zur Eröffnung in einem System.</p>
           </div>
         </div>
 
@@ -286,8 +277,8 @@
           </div>
           <div class="portfolio-info">
             <div class="portfolio-tags"><span>KI</span><span>Bildung</span></div>
-            <h3>AI Bootcamp von null auf</h3>
-            <p>Entwicklung eines strukturierten Bootcamps, das Einsteiger ohne Vorkenntnisse Schritt für Schritt an KI-Werkzeuge und Automatisierung heranführt.</p>
+            <h3 data-i18n="proj3-title">AI Bootcamp</h3>
+            <p data-i18n="proj3-text">Entwicklung eines strukturierten Bootcamps, das Einsteiger ohne Vorkenntnisse Schritt für Schritt an KI-Werkzeuge und Automatisierung heranführt.</p>
           </div>
         </div>
 
@@ -299,10 +290,10 @@
   <section id="cta-banner">
     <div class="container">
       <div class="cta-box reveal">
-        <p class="cta-label">Lass uns arbeiten</p>
-        <h2>Bereit, deine Prozesse<br /><span class="accent">auf das nächste Level</span> zu bringen?</h2>
-        <p class="cta-sub">Ich nehme aktuell neue Projekte an. Schreib mir, ich antworte in der Regel innerhalb von 24 Stunden.</p>
-        <a href="#contact" class="btn btn-primary btn-lg">Kostenloses Erstgespräch buchen</a>
+        <p class="cta-label" data-i18n="cta-label">Lass uns arbeiten</p>
+        <h2 data-i18n="cta-title">Bereit, deine Prozesse<br /><span class="accent">auf das nächste Level</span> zu bringen?</h2>
+        <p class="cta-sub" data-i18n="cta-sub">Ich nehme aktuell neue Projekte an. Schreib mir, ich antworte in der Regel innerhalb von 24 Stunden.</p>
+        <a href="#contact" class="btn btn-primary btn-lg"><span data-i18n="cta-btn">Kostenloses Erstgespräch buchen</span></a>
       </div>
     </div>
   </section>
@@ -311,9 +302,9 @@
   <section id="contact">
     <div class="container contact-grid">
       <div class="contact-info">
-        <p class="section-label reveal">Kontakt</p>
-        <h2 class="section-title reveal">Lass uns reden<span class="red-text">.</span></h2>
-        <p class="contact-body reveal">Hast du eine Idee, ein Problem oder möchtest einfach wissen, was möglich ist? Schreib mir. Kein Druck, kein Sales-Pitch.</p>
+        <p class="section-label reveal" data-i18n="contact-label">Kontakt</p>
+        <h2 class="section-title reveal" data-i18n="contact-title">Lass uns reden<span class="red-text">.</span></h2>
+        <p class="contact-body reveal" data-i18n="contact-body">Hast du eine Idee, ein Problem oder möchtest einfach wissen, was möglich ist? Schreib mir. Kein Druck, kein Sales-Pitch.</p>
         <div class="contact-details reveal">
           <a href="mailto:info@till-schaefer.de" class="contact-item">
             <div class="contact-icon">
@@ -339,22 +330,22 @@
         <form class="contact-form" id="contactForm">
           <div class="form-row">
             <div class="form-group">
-              <label for="name">Name</label>
+              <label for="name" data-i18n="form-name">Name</label>
               <input type="text" id="name" name="name" placeholder="Max Mustermann" required />
             </div>
             <div class="form-group">
-              <label for="company">Unternehmen</label>
+              <label for="company" data-i18n="form-company">Unternehmen</label>
               <input type="text" id="company" name="company" placeholder="Dein Unternehmen" />
             </div>
           </div>
           <div class="form-group">
-            <label for="email">E-Mail</label>
+            <label for="email" data-i18n="form-email">E-Mail</label>
             <input type="email" id="email" name="email" placeholder="deine@email.de" required />
           </div>
           <div class="form-group">
-            <label for="subject">Worum geht es?</label>
+            <label for="subject" data-i18n="form-subject">Worum geht es?</label>
             <select id="subject" name="subject">
-              <option value="">Thema auswählen...</option>
+              <option value="" data-i18n="select-placeholder">Thema auswählen...</option>
               <option>Automatisierung</option>
               <option>KI-Integration</option>
               <option>Webentwicklung</option>
@@ -363,10 +354,10 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="message">Nachricht</label>
+            <label for="message" data-i18n="form-msg">Nachricht</label>
             <textarea id="message" name="message" rows="5" placeholder="Beschreib kurz, worum es geht..." required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-full">Nachricht senden</button>
+          <button type="submit" class="btn btn-primary btn-full" data-i18n="form-submit">Nachricht senden</button>
         </form>
       </div>
     </div>
@@ -377,7 +368,7 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <a href="#hero" class="nav-logo">Till Schäfer<span class="dot">.</span></a>
-        <p>KI und Automatisierung Freelancer<br />Hamburg, Deutschland</p>
+        <p data-i18n="footer-tagline">KI und Automatisierung Freelancer<br />Hamburg, Deutschland</p>
       </div>
       <div class="footer-links">
         <a href="#about">Über mich</a>
@@ -398,7 +389,7 @@
     </div>
     <div class="container">
       <div class="footer-bottom">
-        <p>© 2025 Till Schäfer. Alle Rechte vorbehalten.</p>
+        <p data-i18n="footer-copy">© 2026 Till Schäfer. Alle Rechte vorbehalten.</p>
         <div class="footer-legal">
           <a href="impressum.html">Impressum</a>
           <a href="datenschutz.html">Datenschutz</a>
@@ -414,8 +405,8 @@
       Mehr dazu in unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
     </p>
     <div class="cookie-actions">
-      <button class="btn-cookie-decline" id="cookieDecline">Nur notwendige</button>
-      <button class="btn-cookie-accept" id="cookieAccept">Verstanden</button>
+      <button class="btn-cookie-decline" id="cookieDecline" data-i18n="cookie-decline">Nur notwendige</button>
+      <button class="btn-cookie-accept" id="cookieAccept" data-i18n="cookie-accept">Verstanden</button>
     </div>
   </div>
 
