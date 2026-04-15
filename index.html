@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: Title & Description -->
+  <title>Till Schäfer | KI & Automatisierung Freelancer Hamburg</title>
+  <meta name="description" content="Freelancer für KI-Integration, Prozessautomatisierung und Webentwicklung in Hamburg. Ich helfe Unternehmen dabei, Zeit zu sparen und Abläufe zu skalieren. Jetzt kostenloses Erstgespräch buchen." />
+  <meta name="keywords" content="Automatisierung Freelancer Hamburg, KI Integration, Prozessautomatisierung, Make.com, n8n, Power Automate, KI Freelancer, Webentwicklung Hamburg, Till Schäfer, AI Freelancer Deutschland" />
+  <meta name="author" content="Till Schäfer" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://till-schaefer.de" />
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Till Schäfer | KI & Automatisierung Freelancer Hamburg" />
+  <meta property="og:description" content="Freelancer für KI-Integration und Prozessautomatisierung. Ich helfe Unternehmen, Zeit zu sparen und Abläufe zu skalieren." />
+  <meta property="og:url" content="https://till-schaefer.de" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Till Schäfer" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Till Schäfer | KI & Automatisierung Freelancer Hamburg" />
+  <meta name="twitter:description" content="Freelancer für KI-Integration und Prozessautomatisierung in Hamburg." />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Till Schäfer",
+    "jobTitle": "KI & Automatisierung Freelancer",
+    "url": "https://till-schaefer.de",
+    "email": "info@till-schaefer.de",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hamburg",
+      "addressCountry": "DE"
+    },
+    "knowsAbout": ["KI-Integration", "Prozessautomatisierung", "Make.com", "n8n", "Power Automate", "Webentwicklung", "IT-Beratung"],
+    "sameAs": ["https://www.linkedin.com/in/till-schaefer"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Till Schäfer<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#services">Leistungen</a></li>
+        <li><a href="#process">Prozess</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-cta">Kontakt</a></li>
+      </ul>
+      <button class="nav-burger" id="burger" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="#about" class="mob-link">Über mich</a>
+      <a href="#services" class="mob-link">Leistungen</a>
+      <a href="#process" class="mob-link">Prozess</a>
+      <a href="#portfolio" class="mob-link">Portfolio</a>
+      <a href="#contact" class="mob-link mob-cta">Kontakt</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <canvas id="tileCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Verfügbar für neue Projekte
+      </div>
+      <h1 class="hero-title reveal">
+        Automatisierung<br />
+        <span class="gradient-text">ohne Chaos.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Ich helfe Unternehmen, Zeit zu sparen und Prozesse zu skalieren,<br class="br-desk" />
+        durch smarte KI-Lösungen und maßgeschneiderte Automatisierungen.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">Jetzt starten</a>
+        <a href="#portfolio" class="btn btn-ghost">Projekte ansehen</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Jahre Erfahrung</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Projekte umgesetzt</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Remote und flexibel</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card">
+          <div class="about-avatar">
+            <img src="IMG_1488-1-e1768509123802.jpeg" alt="Till Schäfer, KI und Automatisierung Freelancer Hamburg" class="avatar-img" />
+          </div>
+          <div class="about-card-info">
+            <p class="about-card-name">Till Schäfer</p>
+            <p class="about-card-role">KI &amp; Automatisierung Freelancer</p>
+            <p class="about-card-loc">📍 Hamburg, Deutschland</p>
+          </div>
+          <div class="about-card-tags">
+            <span>Lufthansa Group</span>
+            <span>5+ Jahre Erfahrung</span>
+            <span>Hamburg</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label reveal">Über mich</p>
+        <h2 class="section-title reveal">
+          Prozesse, die wirklich<br /><span class="gradient-text">funktionieren.</span>
+        </h2>
+        <p class="about-body reveal">
+          Ich bin Till, 25 Jahre alt, und helfe Unternehmen dabei, wiederkehrende Aufgaben zu automatisieren und digitale Prozesse aufzubauen. Damit du dich auf das konzentrieren kannst, was wirklich zählt.
+        </p>
+        <p class="about-body reveal">
+          Mit Erfahrung aus der Lufthansa Group und zahlreichen Freelance-Projekten weiß ich, wie komplexe Unternehmensstrukturen ticken. Und wie man sie smarter macht.
+        </p>
+        <div class="about-links reveal">
+          <a href="https://www.linkedin.com/in/till-schaefer" target="_blank" rel="noopener" class="social-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:info@till-schaefer.de" class="social-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            E-Mail schreiben
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label reveal">Leistungen</p>
+        <h2 class="section-title reveal">Was ich für dich<br /><span class="gradient-text">umsetze.</span></h2>
+        <p class="section-sub reveal">Von der ersten Idee bis zum laufenden System. Alles aus einer Hand.</p>
+      </div>
+      <div class="services-grid services-grid-4">
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Automatisierung und Workflows</h3>
+          <p>Wiederkehrende Prozesse vollständig automatisieren, mit Make.com, n8n oder Power Automate. Du sparst Zeit, ich baue das System das wirklich läuft.</p>
+          <div class="service-tags">
+            <span>Make.com</span><span>n8n</span><span>Power Automate</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>KI in deine Workflows integrieren</h3>
+          <p>Künstliche Intelligenz sinnvoll einsetzen, direkt in deinen bestehenden Prozessen. Smarte Assistenten, automatisierte Auswertungen und intelligente Entscheidungshilfen.</p>
+          <div class="service-tags">
+            <span>KI-Agenten</span><span>LLM</span><span>Workflow-AI</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Webentwicklung</h3>
+          <p>Moderne, performante Websites und Web-Apps. Von der Landing Page bis zum internen Dashboard. Sauber gebaut und schnell ausgeliefert.</p>
+          <div class="service-tags">
+            <span>React</span><span>Next.js</span><span>Node.js</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
+          <h3>IT-Beratung und Strategie</h3>
+          <p>Ich analysiere deine Prozesse und zeige konkrete Hebel. Kein Buzzword-Bingo, sondern klare Maßnahmen mit echtem Impact für dein Unternehmen.</p>
+          <div class="service-tags">
+            <span>Analyse</span><span>Strategie</span><span>KMU</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label reveal">Mein Prozess</p>
+        <h2 class="section-title reveal">So arbeiten wir<br /><span class="gradient-text">zusammen.</span></h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>System-Audit</h3>
+            <p>Wir analysieren gemeinsam deine aktuellen Prozesse. Was läuft gut, was kostet unnötig Zeit und Geld?</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Konzept und Planung</h3>
+            <p>Ich entwerfe eine maßgeschneiderte Lösung mit klarem Scope, realistischer Timeline und fixem Budget. Keine Überraschungen.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Aufbau und Automatisierung</h3>
+            <p>Ich setze die Lösung um. Sauber, dokumentiert und mit dir abgestimmt. Du siehst jeden Schritt.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Übergabe und Monitoring</h3>
+            <p>Du übernimmst ein laufendes System. Ich bleibe als Ansprechpartner und optimiere bei Bedarf weiter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label reveal">Portfolio</p>
+        <h2 class="section-title reveal">Projekte, die<br /><span class="gradient-text">Ergebnisse liefern.</span></h2>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card reveal">
+          <div class="portfolio-visual p-vis-1">
+            <div class="p-icon">🗺️</div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-tags">
+              <span>Automatisierung</span><span>Logistik</span>
+            </div>
+            <h3>Automatisierte Routenplanung</h3>
+            <p>Vollautomatische Optimierung von Lieferrouten. Spart Stunden manueller Planung pro Woche und reduziert Fehlerquoten spürbar.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="portfolio-visual p-vis-2">
+            <div class="p-icon">🏪</div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-tags">
+              <span>Prozess</span><span>Retail</span>
+            </div>
+            <h3>Expansionsprozess Einzelhandel</h3>
+            <p>Strukturierter digitaler Workflow für den Expansionsprozess eines Einzelhändlers. Von der Standortsuche bis zur Eröffnung, alles in einem System.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal">
+          <div class="portfolio-visual p-vis-3">
+            <div class="p-icon">🤖</div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-tags">
+              <span>KI</span><span>Bildung</span>
+            </div>
+            <h3>AI Bootcamp von null auf</h3>
+            <p>Entwicklung eines strukturierten Bootcamps, das Einsteiger ohne Vorkenntnisse Schritt für Schritt an KI-Werkzeuge und Automatisierung heranführt. Praxisnah, verständlich und direkt anwendbar.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section id="cta-banner">
+    <div class="container">
+      <div class="cta-box reveal">
+        <div class="cta-glow"></div>
+        <p class="cta-label">Lass uns arbeiten</p>
+        <h2>Bereit, deine Prozesse<br /><span class="gradient-text">auf das nächste Level</span> zu bringen?</h2>
+        <p class="cta-sub">Ich nehme aktuell neue Projekte an. Schreib mir, ich antworte in der Regel innerhalb von 24 Stunden.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Kostenloses Erstgespräch buchen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-label reveal">Kontakt</p>
+        <h2 class="section-title reveal">Lass uns reden<span class="gradient-text">.</span></h2>
+        <p class="contact-body reveal">Hast du eine Idee, ein Problem oder möchtest einfach wissen, was möglich ist? Schreib mir. Kein Druck, kein Sales-Pitch.</p>
+        <div class="contact-details reveal">
+          <a href="mailto:info@till-schaefer.de" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <p class="contact-label-sm">E-Mail</p>
+              <p class="contact-value">info@till-schaefer.de</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/till-schaefer" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <p class="contact-label-sm">LinkedIn</p>
+              <p class="contact-value">Till Schäfer</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Max Mustermann" required />
+            </div>
+            <div class="form-group">
+              <label for="company">Unternehmen</label>
+              <input type="text" id="company" name="company" placeholder="Dein Unternehmen" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" placeholder="deine@email.de" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Worum geht es?</label>
+            <select id="subject" name="subject">
+              <option value="">Thema auswählen...</option>
+              <option>Automatisierung</option>
+              <option>KI-Integration</option>
+              <option>Webentwicklung</option>
+              <option>IT-Beratung</option>
+              <option>Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Nachricht</label>
+            <textarea id="message" name="message" rows="5" placeholder="Beschreib kurz, worum es geht..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Nachricht senden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Till Schäfer<span class="dot">.</span></span>
+        <p>KI und Automatisierung Freelancer<br />Hamburg, Deutschland</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">Über mich</a>
+        <a href="#services">Leistungen</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/till-schaefer" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:info@till-schaefer.de" aria-label="E-Mail">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Till Schäfer. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
