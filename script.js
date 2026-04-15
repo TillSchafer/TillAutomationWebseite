@@ -85,6 +85,24 @@
 
 
 // =====================
+// COOKIE BANNER
+// =====================
+(function () {
+  const banner = document.getElementById('cookieBanner');
+  if (!banner) return;
+  if (localStorage.getItem('cookieConsent')) return;
+  setTimeout(() => banner.classList.add('visible'), 1200);
+  document.getElementById('cookieAccept').addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', 'accepted');
+    banner.classList.remove('visible');
+  });
+  document.getElementById('cookieDecline').addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', 'declined');
+    banner.classList.remove('visible');
+  });
+})();
+
+// =====================
 // NAVBAR: scroll effect + burger
 // =====================
 const navbar = document.getElementById('navbar');
